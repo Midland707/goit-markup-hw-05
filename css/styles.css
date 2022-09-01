@@ -125,6 +125,10 @@ button {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: inherit;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-link:hover,
@@ -162,6 +166,10 @@ button {
 
     padding-top: 32px;
     padding-bottom: 32px;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-email-icon,
@@ -216,6 +224,10 @@ button {
     border-radius: 4px;
     border: 0;
     padding: 10px 32px;
+
+    transition-property: background;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover, .hero-btn:focus {
@@ -348,6 +360,10 @@ button {
     width: 44px;
     height: 44px;
     border-radius: 50%;
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-link:hover,
@@ -360,6 +376,10 @@ button {
     height: 20px;
     fill: var(--icon-color);
     background-color: var(--third-color);
+
+    transition-property: fill, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-link:hover .social-list-icon,
@@ -394,12 +414,18 @@ button {
     height: 92px;
     border-radius: 4px;
     border: 1px solid var(--icon-color);
+
+    transition-property: border-color;
 }
 
 .client-icon {
     fill: var(--icon-color);
     width: 106px;
     height: 60px;
+
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link:hover,
@@ -474,6 +500,13 @@ button {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
+.footer-social-list-link {
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
 .footer-social-list-link:hover,
 .footer-social-list-link:focus {
     background-color: var(--active-color);
@@ -511,6 +544,10 @@ button {
     background: var(--fourth-color);
     border-radius: 4px;
     border: 0;
+
+    transition-property: color, background, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .filter-first-btn {
     padding: 6px 25px;
@@ -519,7 +556,6 @@ button {
 .filter-btn:hover,
 .filter-btn:focus,
 .current-btn {
-    cursor: pointer;
     color: var(--third-color);
     background: var(--active-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -539,6 +575,10 @@ button {
 
 .project-link {
     display: block;
+
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project-img {
