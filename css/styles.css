@@ -290,6 +290,25 @@ button {
 .service-item:not(:last-child) {
     margin-right: 30px;
 } 
+.service-item {
+    position: relative;
+}
+
+.service-item-overlay {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+    
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--third-color);
+}
 
 /* Наша команда */
 .team {
@@ -621,8 +640,8 @@ button {
 
 .project-link:hover,
 .project-link:focus,
-.project-link:hover .overlay,
-.project-link:focus .overlay {
+.project-link:hover .project-card-overlay,
+.project-link:focus .project-card-overlay {
     transform: translateY(0%);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -632,7 +651,7 @@ button {
     overflow: hidden;
 }
 
-.overlay {
+.project-card-overlay {
     position: absolute;
     display: flex;
     align-items:center;
