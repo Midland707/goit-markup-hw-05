@@ -11,7 +11,7 @@
  --hero-button-background-active-color: #188CE8;
  
  --address-link-color: rgba(255, 255, 255, 0.6);
- --transition-dur-and-func: 2000ms cubic-bezier(0.4, 0, 0.2, 1);
+ --transition-durat-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
@@ -127,7 +127,7 @@ button {
     letter-spacing: 0.02em;
     color: inherit;
 
-    transition: color var(--transition-dur-and-func)
+    transition: color var(--transition-durat-and-func);
 }
 
 .menu-link:hover,
@@ -166,7 +166,7 @@ button {
     padding-top: 32px;
     padding-bottom: 32px;
 
-    transition: color var(--transition-dur-and-func);
+    transition: color var(--transition-durat-and-func);
 }
 
 .contacts-email-icon,
@@ -222,7 +222,7 @@ button {
     border: 0;
     padding: 10px 32px;
 
-    transition-property: background var(--transition-dur-and-func);
+    transition: background var(--transition-durat-and-func);
 }
 
 .hero-btn:hover, .hero-btn:focus {
@@ -356,7 +356,7 @@ button {
     height: 44px;
     border-radius: 50%;
 
-    transition-property: background-color var(--transition-dur-and-func);
+    transition: background-color var(--transition-durat-and-func);
 }
 
 .social-list-link:hover,
@@ -370,7 +370,7 @@ button {
     fill: var(--icon-color);
     background-color: var(--third-color);
 
-    transition-property: fill var(--transition-dur-and-func), background-color var(--transition-dur-and-func);
+    transition: fill var(--transition-durat-and-func), background-color var(--transition-durat-and-func);
 }
 
 .social-list-link:hover .social-list-icon,
@@ -406,7 +406,7 @@ button {
     border-radius: 4px;
     border: 1px solid var(--icon-color);
 
-    transition-property: border-color;
+    transition: border-color var(--transition-durat-and-func);
 }
 
 .client-icon {
@@ -414,7 +414,7 @@ button {
     width: 106px;
     height: 60px;
 
-    transition-property: fill var(--transition-dur-and-func);
+    transition: fill var(--transition-durat-and-func);
 }
 
 .clients-link:hover,
@@ -470,6 +470,7 @@ button {
 .address-link {
     line-height: 1.7;
     color: var(--address-link-color);
+    transition: color var(--transition-durat-and-func);
 }
 
 /* Footer social-link */
@@ -490,7 +491,7 @@ button {
 }
 
 .footer-social-list-link {
-    transition-property: background-color var(--transition-dur-and-func);
+    transition: background-color var(--transition-durat-and-func);
 }
 
 
@@ -520,7 +521,7 @@ button {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-    transition: opacity var(--transition-dur-and-func), visibility var(--transition-dur-and-func);
+    transition: opacity var(--transition-durat-and-func), visibility var(--transition-durat-and-func);
 }
 
 .backdrop.is-hidden {
@@ -582,7 +583,7 @@ button {
     border-radius: 4px;
     border: 0;
 
-    transition-property: color var(--transition-dur-and-func), background var(--transition-dur-and-func), box-shadow var(--transition-dur-and-func);
+    transition: color var(--transition-durat-and-func), background var(--transition-durat-and-func), box-shadow var(--transition-durat-and-func);
 }
 .filter-first-btn {
     padding: 6px 25px;
@@ -611,7 +612,7 @@ button {
 .project-link {
     display: block;
 
-    transition-property: box-shadow var(--transition-dur-and-func);
+    transition: box-shadow var(--transition-durat-and-func);
 }
 
 .project-img {
@@ -648,7 +649,7 @@ button {
 
     overflow: auto;
     transform: translateY(100%);
-    transition: transform var(--transition-dur-and-func);
+    transition: transform var(--transition-durat-and-func);
 }
 
 .project-name {
